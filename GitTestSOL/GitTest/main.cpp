@@ -2,5 +2,10 @@
 
 void main() {
 
-	std::cout << "Hello World!" << std::endl;
+	std::string userName;
+
+	std::cout << "Escribe tu nombre: " << std::endl;
+	std::cin >> userName;
+	std::cout << "Hola " << userName << "!" << std::endl;
+	
 }
